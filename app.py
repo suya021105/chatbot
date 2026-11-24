@@ -7,11 +7,8 @@ app = Flask(__name__)
 
 def chat():
 
- return "Hello! I'm the mini chatbot for the Cloud Infrastructure
-
-Management class. How can I help you?"
+    return "Hello! I'm the mini chatbot for the Cloud Infrastructure Management class. How can I help you?"
 
 if __name__ == "__main__":
 
  app.run(host="0.0.0.0", port=5000)
-
